@@ -1,0 +1,92 @@
+C51 COMPILER V7.06   RAM                                                                   11/18/2013 04:45:00 PAGE 1   
+
+
+C51 COMPILER V7.06, COMPILATION OF MODULE RAM
+OBJECT MODULE PLACED IN ram.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE ram.c BROWSE DEBUG OBJECTEXTEND
+
+stmt level    source
+
+   1          #include <reg51.h>
+   2          
+   3          
+   4          unsigned char volatile xdata *  Xbyte=0;
+   5          
+   6          
+   7          
+   8          main()
+   9          {
+  10   1      
+  11   1      char a=9;
+  12   1      int b=0x5678;
+  13   1      
+  14   1      Xbyte[0x0000]=0;
+  15   1      Xbyte[0x0001]=1;
+  16   1      Xbyte[0x0002]=2;
+  17   1      Xbyte[0x0003]=3;
+  18   1      Xbyte[0x0004]=4;
+  19   1      Xbyte[0x0005]=5;
+  20   1      Xbyte[0x0006]=6;
+  21   1      Xbyte[0x0007]=7;
+  22   1      
+  23   1              while(1)
+  24   1                {
+  25   2                 
+  26   2                
+  27   2                }
+  28   1      
+  29   1      }
+  30          
+  31          
+  32          
+  33          /*#include <reg51.h>
+  34          #include <absacc.h>
+  35          
+  36          
+  37          
+  38          
+  39          main()
+  40          {
+  41          
+  42          char a=9;
+  43          int b=0x5678;
+  44          
+  45          XBYTE[0x0000]=0;
+  46          XBYTE[0x0001]=1;
+  47          XBYTE[0x0002]=2;
+  48          XBYTE[0x0003]=3;
+  49          XBYTE[0x0004]=4;
+  50          XBYTE[0x0005]=5;
+  51          XBYTE[0x0006]=6;
+  52          XBYTE[0x0007]=7;
+  53          
+  54                  while(1)
+  55                    {
+C51 COMPILER V7.06   RAM                                                                   11/18/2013 04:45:00 PAGE 2   
+
+  56                     
+  57                    
+  58                    }
+  59          
+  60          }
+  61          */
+  62          
+  63          
+  64          
+  65          
+  66          
+  67          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     99    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      2       3
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
